@@ -8,7 +8,6 @@ $(document).ready(function(){
 			$('.menu').removeClass('menu-fixed');
 		}
 	});
-	/*Funcion para abrir y cerrar boton de menu*/
 	$("#botonMenu").click(function(){
 		$(".menu ul").slideToggle();
 	});	
